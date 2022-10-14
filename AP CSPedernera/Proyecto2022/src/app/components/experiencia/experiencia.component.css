@@ -1,0 +1,14 @@
+.row{
+    background: tu fondo;
+    padding: 20px;
+}
+div{
+    background:#4e4376 100% ;
+}
+h1, h3{
+    display: inline;
+} 
+#texto {
+    font-family: 'VT323', monospace;
+
+}
