@@ -9,6 +9,12 @@
 }
 
 img{
-    width: 200px;
+    width: 50px;
     margin-left: 25px;
+}
+
+button{
+    margin: 20px;
+    font-weight: bold;
+    font-family: 'VT323', monospace;
 }

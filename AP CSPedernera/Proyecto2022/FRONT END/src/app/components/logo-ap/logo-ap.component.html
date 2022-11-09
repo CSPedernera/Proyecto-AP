@@ -1,1 +1,16 @@
-<img src="../../../assets/logos/ar programa logo.png" id="logoap">
+<div class="row">
+    <div class="container">
+        <div class="logo">
+            <img src="../../../assets/logos/ar programa logo.png" id="logoAP">
+
+        </div>
+     <div class="redes">
+        <a href=""><img src="../../../assets/logos/mail.gif" id="mail"></a>
+    <a href=""><img src="../../../assets/logos/contacto.gif" id="linkedin" ></a>
+    <a href=""><img src="../../../assets/logos/git.gif" id="github" ></a>
+    <a href=""><img src="../../../assets/logos/instagram.gif" id="instagram" ></a>
+    <button type="button" class="btn btn-outline-primary" (click)="login()" *ngIf="!isLogged">ingresar</button>
+    <button type="button" class="btn btn-outline-primary" (click)="onLogOut()" *ngIf="isLogged">salir</button>
+    </div>
+</div>
+</div>
